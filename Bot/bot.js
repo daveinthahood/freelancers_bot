@@ -12,9 +12,10 @@ bot.start((ctx) => ctx.reply('Welcome in my channel',
     {inline_keyboard:
         [[{ text: "View the Shop", web_app: {url:link}}]]
         }},
+{reply_markup:
     {inline_keyboard:
             [[{ text: "View my GitHub", web_app: {url:github}}]]
-            }
+            }}
        )
     );
  
