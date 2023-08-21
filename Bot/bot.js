@@ -9,7 +9,8 @@ const bot = new Telegraf(TOKEN);
 bot.start((ctx) => ctx.reply('Welcome in my channel', 
 {reply_markup:
     {inline_keyboard:
-        [[{ text: "web app", web_app: {url:link}}]]
+        [[{ text: "View the Shop", web_app: {url:link}}]]
+        [[{ text: "View my GitHub", web_app: {url:"https://github.com/daveinthahood"}}]]
         }}
        )
     );
