@@ -1,4 +1,6 @@
 import { Telegraf } from "telegraf";
+import { url } from "telegraf/typings/button";
+import { inlineKeyboard } from "telegraf/typings/markup";
 
 
 
@@ -15,12 +17,18 @@ bot.start((ctx) => ctx.reply('Welcome',
     );
 bot.command('shop', (ctx) => {
     ctx.telegram.sendMessage(ctx.chat.id, "dev shop"), {
-        reply_markup: {
-            inline_keyboard: [
-                [{text:"shop", url:"https://freelancers-bot.vercel.app/"}]
-            ]
+        reply_markup: inlineKeyboard(text ='link', url='https://freelancers-bot.vercel.app/')
+            
         }
     }
-})
+)
+
+update.message.reply_text(
+    'Subscribe to us on Facebook and Telegram:',
+    reply_markup=([
+        [inlineKeyboard(text='on Facebook', url='https://facebook.com')],
+        [inlineKeyboard(text='on Telegram', url='https://t.me')],
+    ])
+)
  
 bot.launch();
