@@ -2,7 +2,7 @@ import { Telegraf } from "telegraf";
 
 
 
-const TOKEN = '6696134776:AAE8kA_eKiW0rR-h6lNqHmuARl7zMJod7vQ'
+const TOKEN = '6696134776:AAFfubBmZbNmgFFxaYV82Rxv9q6038AsFG8'
 const link = "https://freelancers-bot.vercel.app/"
 const bot = new Telegraf(TOKEN);
 
