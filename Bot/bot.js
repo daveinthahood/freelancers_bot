@@ -3,7 +3,7 @@ import { Telegraf } from "telegraf";
 
 
 const TOKEN = '6696134776:AAFfubBmZbNmgFFxaYV82Rxv9q6038AsFG8'
-const link = "https://freelancers-bot.vercel.app/"
+const link = "https://heroic-lebkuchen-334a3c.netlify.app/"
 const bot = new Telegraf(TOKEN);
 
 bot.start((ctx) => ctx.reply('Welcome in my channel', 
