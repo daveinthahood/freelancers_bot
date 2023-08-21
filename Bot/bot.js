@@ -2,7 +2,7 @@ import { Telegraf } from "telegraf";
 
 
 
-const TOKEN = '6696134776:AAFfubBmZbNmgFFxaYV82Rxv9q6038AsFG8'
+const TOKEN = '6585830561:AAE7PRUPQo32byCcWPpwk5yKgv3q0lZR2HU'
 const link = "https://heroic-lebkuchen-334a3c.netlify.app/"
 const bot = new Telegraf(TOKEN);
 
