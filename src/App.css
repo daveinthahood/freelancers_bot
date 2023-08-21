@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+.cards_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.order_ {
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-top: 1px solid yellow;
+    background-color: red;
+
+}
+
+footer > span > a {
+    text-decoration: none;
+    color: tomato;
+    letter-spacing: 1px;
+    margin-top: 1px;
+
+}
