@@ -9,7 +9,7 @@ const bot = new Telegraf(TOKEN);
 bot.start((ctx) => ctx.reply('Welcome', 
 {reply_markup:
     {inline_keyboard:
-        [[{ text: "web app", web_app: {url:link}}]]
+        [[{ text: "web app", url:link}]]
         }}
        )
     );
