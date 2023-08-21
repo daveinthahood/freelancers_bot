@@ -20,7 +20,7 @@
 }
 
 .btn.remove {
-    background-color: tomato;
+    background-color: rgb(255, 0, 0);
 }
 
 .btn.checkout {
