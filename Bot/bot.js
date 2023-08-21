@@ -13,5 +13,14 @@ bot.start((ctx) => ctx.reply('Welcome',
         }}
        )
     );
+bot.command('shop', (ctx) => {
+    ctx.telegram.sendMessage(ctx.chat.id), {
+        reply_markup: {
+            inline_keyboard: [
+                [{text:"shop", url:link}]
+            ]
+        }
+    }
+})
  
 bot.launch();
