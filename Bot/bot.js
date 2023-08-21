@@ -14,10 +14,10 @@ bot.start((ctx) => ctx.reply('Welcome',
        )
     );
 bot.command('shop', (ctx) => {
-    ctx.telegram.sendMessage(ctx.chat.id), {
+    ctx.telegram.sendMessage(ctx.chat.id, "dev shop"), {
         reply_markup: {
             inline_keyboard: [
-                [{text:"shop", url:link}]
+                [{text:"shop", url:"https://freelancers-bot.vercel.app/"}]
             ]
         }
     }
