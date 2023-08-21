@@ -5,6 +5,7 @@
 body {
     margin: 0;
     font-family: 'Fira Code', monospace;
+   
     
 }
 
@@ -17,6 +18,7 @@ body {
 
 .order_ {
     text-align: center;
+    color: white ;
 }
 
 footer{
