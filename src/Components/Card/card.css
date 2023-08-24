@@ -2,11 +2,14 @@
     --primary-color : #fddb00;
 }
 
+.img-card {
+    padding: 1rem;
+}
 
 .card {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: end;
     width: 150px;
     height: 250px;
     border: 2px solid var(--primary-color);

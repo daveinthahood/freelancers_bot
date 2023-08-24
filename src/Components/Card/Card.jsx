@@ -7,7 +7,7 @@ import { Button } from '../Button/Button';
 export const Card = ({items}) => {
     const [count, setCount] = useState(0)
 
-    const {title, price, id} = items;
+    const {title, price, id, url_icon} = items;
 
 
     const handleAdd = (event ) => {
@@ -24,7 +24,7 @@ export const Card = ({items}) => {
         <div className="card">
             <span className={`${count !==0 ? 'card_badge' : 'card_badge--hidden'}`}> {count}</span>
 
-            
+                <img className='img-card' src={url_icon} alt="" />
                 <h4 className='card_title'> {title}:
                 <span className='price'> {price }</span></h4> 
 
