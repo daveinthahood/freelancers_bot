@@ -6,6 +6,8 @@ body {
     margin: 0;
     font-family: 'Fira Code', monospace;
     background-color: white;
+    display: flex;
+    justify-content: center;
    
     
 }
@@ -37,4 +39,12 @@ footer > span > a {
     letter-spacing: 1px;
     margin-top: 1px;
 
+}
+
+.button-checkout {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem ;
 }

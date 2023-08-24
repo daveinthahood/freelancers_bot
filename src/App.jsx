@@ -25,6 +25,9 @@ function App() {
     </div>
 
     <Cart cartItems={cartItems} />
+    <div className='button-checkout'>
+      <Button title={'checkout'} type={'checkout'} />
+    </div>
     <footer> Powered by: <span>
          <a href="https://t.me/+ApOsaoFg3Sk4MGE0"> Dave </a>
       </span>

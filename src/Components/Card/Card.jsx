@@ -22,7 +22,7 @@ export const Card = ({items}) => {
     return (
         <>
         <div className="card">
-            <span className={`${count !==0 ? 'card_badge' : 'card_badge--hidden'}`}> {count}</span>
+            <span className={`${count !==0 ? 'card_badge' : 'card_badge--hidden'}`}> {count} </span>
 
                 <img className='img-card' src={url_icon} alt="" />
                 <h4 className='card_title'> {title}:
@@ -33,9 +33,9 @@ export const Card = ({items}) => {
                     {count !== 0 ? (
                     <Button title={'-'} type={'remove'} onClick={handleRem}/>) : ""
                     }
-                </div>
-            
+                </div>        
         </div>
+    
         </>
     )
 }

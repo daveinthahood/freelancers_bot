@@ -25,7 +25,8 @@
 
 .btn.checkout {
     background-color: rgb(38, 121, 38);
-    width: 150px;
+    max-width: 350px;
+    width: 100%;
     color: white;
     font-size: 14px;
 }
